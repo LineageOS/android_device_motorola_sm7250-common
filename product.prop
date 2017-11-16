@@ -12,3 +12,6 @@ ro.vendor.mot.factory=false
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
+
+# Voice assistant
+ro.opa.eligible_device=true
