@@ -220,9 +220,7 @@ PRODUCT_COPY_FILES += \
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
-    IPACM_cfg.xml \
-    libipanat \
-    liboffloadhal
+    IPACM_cfg.xml
 
 # IPC router config
 PRODUCT_COPY_FILES += \
