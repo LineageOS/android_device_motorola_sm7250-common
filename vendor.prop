@@ -157,6 +157,7 @@ ro.incremental.enable=1
 ro.hardware.keystore_desede=true
 
 # Media
+debug.stagefright.c2inputsurface=-1
 persist.vendor.media.recorder.bt709=true
 
 # OEM Unlock reporting
