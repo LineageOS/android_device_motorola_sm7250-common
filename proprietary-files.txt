@@ -106,8 +106,8 @@ vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 
 # Bluetooth (aptX)
-lib64/libaptX_encoder.so
-lib64/libaptXHD_encoder.so
+system/lib64/libaptX_encoder.so
+system/lib64/libaptXHD_encoder.so
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -228,7 +228,7 @@ vendor/lib64/vendor.display.color@1.5.so|2816ad7ee01408a8a91f14307a8b29e1c370ab4
 vendor/lib64/vendor.display.postproc@1.0.so|b3c3811c5f07773ef156701c31c448b85ad60c64
 
 # DPM
-framework/tcmclient.jar
+system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -617,7 +617,7 @@ vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Radio
-etc/permissions/privapp-permissions-qti.xml
+system/etc/permissions/privapp-permissions-qti.xml
 system_ext/app/atfwd/atfwd.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
@@ -772,8 +772,8 @@ vendor/radio/qcril_database/upgrade/39_version_qcrildb.sql
 system_ext/priv-app/ims/ims.apk
 
 # Radio - Moto Telephony Framework
-framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
-etc/permissions/moto-telephony.xml:system_ext/etc/permissions/moto-telephony.xml
+system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
+system/etc/permissions/moto-telephony.xml:system_ext/etc/permissions/moto-telephony.xml
 
 # Radio - IMS
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:system_ext/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
