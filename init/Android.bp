@@ -14,13 +14,17 @@
 // limitations under the License.
 //
 
-cc_library_static {
+motorola_lito_init_library_static {
     name: "libinit_lito",
     recovery_available: true,
-    srcs: ["init_lito.cpp"],
+    srcs: [
+        "init_lito.cpp",
+        "DeviceLibinit.cpp"
+    ],
     include_dirs: [
         "system/core/base/include",
         "system/core/init",
+        "device/motorola/sm7250-common"
     ],
     shared_libs: [
         "libbase",
