@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := motorola
-
 VENDOR_PATH := device/motorola/sm7250-common
 
 # Architecture
