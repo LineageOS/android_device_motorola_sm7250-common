@@ -1,11 +1,11 @@
 # Motorola
-type moto_boot_prop, property_type;
+vendor_public_prop(moto_boot_prop)
 
 # AOV
-type vendor_aov_prop, property_type;
+vendor_internal_prop(vendor_aov_prop)
 
 # Power
-type power_prop, property_type;
+vendor_internal_prop(power_prop)
 
 # FM Radio
-type vendor_fm_prop, property_type;
+vendor_public_prop(vendor_fm_prop)
