@@ -467,6 +467,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
+# Shims
+PRODUCT_PACKAGES += \
+    libmemset_shim
+
 # Soong namespaces
 QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
 

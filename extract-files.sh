@@ -23,6 +23,10 @@ source "${HELPER}"
 
 function blob_fixup() {
     case "${1}" in
+    # memset shim
+    vendor/bin/charge_only_mode)
+        "${PATCHELF}" --add-needed libmemset_shim.so "${2}"
+        ;;
     system_ext/lib/libwfdnative.so)
         sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
         ;;
