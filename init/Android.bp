@@ -22,8 +22,8 @@ motorola_lito_init_library_static {
         "DeviceLibinit.cpp"
     ],
     include_dirs: [
-        "system/core/base/include",
         "system/core/init",
+        "system/libbase/include",
         "device/motorola/sm7250-common"
     ],
     shared_libs: [
