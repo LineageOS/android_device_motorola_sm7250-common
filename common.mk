@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+	console.disabler.rc \
     fstab.qcom \
     init.class_main.sh \
     init.crda.sh \

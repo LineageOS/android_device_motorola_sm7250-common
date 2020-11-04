@@ -1,0 +1,3 @@
+on boot
+	# Disable serial console
+	setprop init.svc.console stopped
