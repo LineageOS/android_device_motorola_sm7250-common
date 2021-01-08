@@ -96,6 +96,10 @@ on init
     write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
     write /proc/sys/kernel/sched_lib_mask_force 255
 
+    # ZRAM setup
+    write /sys/block/zram0/comp_algorithm lz4
+    write /proc/sys/vm/page-cluster 0
+
 on property:sys.boot_completed=1
     setprop vendor.setup.power 1
 
@@ -264,6 +268,9 @@ on property:vendor.setup.power=1
     # Enable idle state listener
     write /sys/class/drm/card0/device/idle_encoder_mask 1
     write /sys/class/drm/card0/device/idle_timeout_ms 100
+
+    # Enable ZRAM
+    swapon_all vendor/etc/fstab.qcom
 
     #Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
