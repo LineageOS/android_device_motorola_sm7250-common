@@ -22,6 +22,30 @@
       "revId": "505149160c3311b5dc01db9d5c88f8dd3c38dbda",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83dec60d_30d7d02a",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2021-03-19T16:19:58Z",
+      "side": 1,
+      "message": "Isn\u0027t this for that iwlan.apk? Likely safe to drop if we\u0027re not including.",
+      "parentUuid": "59c4ea34_b544dd33",
+      "range": {
+        "startLine": 359,
+        "startChar": 18,
+        "endLine": 359,
+        "endChar": 53
+      },
+      "revId": "505149160c3311b5dc01db9d5c88f8dd3c38dbda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
