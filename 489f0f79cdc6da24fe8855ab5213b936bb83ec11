@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "92fd3171_9325ad87",
+        "filename": "power-libperfmgr/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-03-21T04:01:55Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be renamed to match the rest of your tree?",
+      "range": {
+        "startLine": 66,
+        "startChar": 51,
+        "endLine": 66,
+        "endChar": 56
+      },
+      "revId": "489f0f79cdc6da24fe8855ab5213b936bb83ec11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
