@@ -46,6 +46,30 @@
       "revId": "505149160c3311b5dc01db9d5c88f8dd3c38dbda",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a22c38a5_6b7e2b2f",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2021-03-26T12:28:47Z",
+      "side": 1,
+      "message": "yeah we\u0027re including it, i thought this should be moved from fwb too but no\nfwb is the place for it",
+      "parentUuid": "83dec60d_30d7d02a",
+      "range": {
+        "startLine": 359,
+        "startChar": 18,
+        "endLine": 359,
+        "endChar": 53
+      },
+      "revId": "505149160c3311b5dc01db9d5c88f8dd3c38dbda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
