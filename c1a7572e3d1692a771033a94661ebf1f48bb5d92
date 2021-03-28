@@ -16,6 +16,23 @@
       "revId": "c1a7572e3d1692a771033a94661ebf1f48bb5d92",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d13c0577_bc4f05e4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2021-03-28T12:45:42Z",
+      "side": 1,
+      "message": "missing \nvendor/etc/init/vendor.qti.cdsprpc-service.rc",
+      "revId": "c1a7572e3d1692a771033a94661ebf1f48bb5d92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
