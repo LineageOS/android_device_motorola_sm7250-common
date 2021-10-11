@@ -291,6 +291,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     DEVICE_PROVISIONED=1 \
+    persist.sys.fflag.override.settings_provider_model=false \
     persist.vendor.data.mode=concurrent \
     ril.subscription.types=RUIM \
     ro.telephony.default_network=27,10 \
