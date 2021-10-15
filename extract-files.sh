@@ -23,6 +23,10 @@ source "${HELPER}"
 
 function blob_fixup() {
     case "${1}" in
+    # imsvt shim
+    system_ext/lib64/lib-imsvideocodec.so | system_ext/lib64/libimsmedia_jni.so)
+        "${PATCHELF}" --add-needed "lib-imsvt_shim.so" "${2}"
+        ;;
     # memset shim
     vendor/bin/charge_only_mode)
         "${PATCHELF}" --add-needed libmemset_shim.so "${2}"
