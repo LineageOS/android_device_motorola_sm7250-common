@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de62ee18_f3409fca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2021-11-20T22:14:39Z",
+      "side": 1,
+      "message": "This does presumably do something. But by itself, is not enough to fix android auto.",
+      "revId": "7fdbb3c19a02293562501ec632e6c3a32e34935e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
