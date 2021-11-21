@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3ad4f22_de6eafb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2021-11-21T04:22:09Z",
+      "side": 1,
+      "message": "Looks like the other missing piece was proper configuration of my gapps package. Android Auto does work now on smith with this.",
+      "revId": "cb60fdb9d07009da5db2442bc125abc7dcd0acec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
