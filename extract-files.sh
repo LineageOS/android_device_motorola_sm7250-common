@@ -27,13 +27,10 @@ function blob_fixup() {
     vendor/bin/charge_only_mode)
         "${PATCHELF}" --add-needed libmemset_shim.so "${2}"
         ;;
-    system_ext/lib/libwfdnative.so)
+    # WFD
+    system_ext/lib/libwfdnative.so | system_ext/lib64/libwfdnative.so)
         sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
         ;;
-    system_ext/lib64/libwfdnative.so)
-        sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
-        ;;
-
     # Fix xml version
     product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml | product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
         sed -i 's/xml version="2.0"/xml version="1.0"/' "${2}"
