@@ -34,6 +34,29 @@
       "parentUuid": "96747cbb_03399189",
       "revId": "6829e1aa269875a76a750c562dca83e86cd029d5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "190d4268_abafb9aa",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-12-08T16:43:29Z",
+      "side": 1,
+      "message": "pip is fine, but freeform windows I think no unless you\u0027re a tablet",
+      "range": {
+        "startLine": 417,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 60
+      },
+      "revId": "6829e1aa269875a76a750c562dca83e86cd029d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
