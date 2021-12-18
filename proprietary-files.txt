@@ -554,7 +554,6 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # OEM
-vendor/bin/expat
 vendor/bin/motobox
 
 # Perf
