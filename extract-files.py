@@ -50,6 +50,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libgui_shim.so'),
     'system_ext/priv-app/ims/ims.apk': blob_fixup()
         .apktool_patch('ims-patches'),
+    'vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc': blob_fixup()
+        .regex_replace('    disabled', ''),
     'vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml': blob_fixup()
         .regex_replace('system_ext', 'product'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
