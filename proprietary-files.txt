@@ -36,10 +36,13 @@ vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 # Alarm
 system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+
+# Alarm - from topaz_global-user 14 UKQ1.230917.001 V816.0.7.0.UMGMIXM release-keys
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|b9255470fd1c32bc7371084273e3c524b392bc4e
+vendor/bin/power_off_alarm|ab9b2e769a136d258b1e29ed494495f70c6b8224
 
 # Audio
 vendor/lib/libacdb-fts.so
