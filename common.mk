@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.soundtrigger@2.2-impl \
     android.hardware.bluetooth.audio@2.0-impl \
+    audioadsprpcd
     audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.lito \
