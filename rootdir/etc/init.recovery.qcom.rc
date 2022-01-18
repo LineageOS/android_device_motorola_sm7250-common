@@ -25,6 +25,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+import init.recovery.lkm.rc
+
 on init
     setprop sys.usb.configfs 1
 
