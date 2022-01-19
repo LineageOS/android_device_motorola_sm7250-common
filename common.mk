@@ -128,14 +128,12 @@ PRODUCT_PACKAGES += \
     audioadsprpcd \
     audio.a2dp.default \
     audio.bluetooth.default \
-    audio.primary.lito \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
     libaudioroute \
     libhdmiedid \
     libhfp \
-    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libsndmonitor \
@@ -143,6 +141,13 @@ PRODUCT_PACKAGES += \
     tinymix \
     libtinycompress \
     libtinycompress.vendor
+
+ifneq (,$(filter %nairo, $(TARGET_PRODUCT)))
+else
+PRODUCT_PACKAGES += \
+    audio.primary.lito \
+    libqcompostprocbundle
+endif
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
