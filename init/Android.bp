@@ -1,5 +1,5 @@
 //
-// SPDX-FileCopyrightText: 2024 The LineageOS Project
+// SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -8,13 +8,6 @@ prebuilt_etc {
     src: "fstab.qcom",
     vendor: true,
     ramdisk_available: true,
-}
-
-prebuilt_etc {
-    name: "init.mmi.chipset.rc",
-    src: "init.mmi.chipset.rc",
-    relative_install_path: "init/hw",
-    vendor: true,
 }
 
 prebuilt_etc {
