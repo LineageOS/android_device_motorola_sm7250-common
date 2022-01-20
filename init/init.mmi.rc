@@ -311,6 +311,9 @@ on charger
     class_stop main
     class_stop late_start
 
+on property:sys.boot_completed=1
+    setprop vendor.boot_completed ${sys.boot_completed}
+
 # translate MMI property in order to keep the consistent with QCOM
 on property:ro.vendor.hw.dualsim=true
    setprop persist.radio.multisim.config dsds
