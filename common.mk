@@ -151,7 +151,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
-    init.mmi.chipset.rc \
     init.mmi.dalvik.rc \
     init.mmi.rc \
     init.mmi.touch.sh \
