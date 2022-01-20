@@ -26,9 +26,6 @@ on early-init
     # Need to wait for platform path for UTAGs driver to succeed
     wait /dev/block/platform/soc/${ro.boot.bootdevice}/by-name/hw
 
-    # initialize ro.vendor.mot.factory with default value when it is not set
-    setprop ro.vendor.mot.factory false
-
     # If utags driver is DLKM, script will load it,
     # otherwise it has to be already loaded
     exec_start vendor.oem-hw-sh

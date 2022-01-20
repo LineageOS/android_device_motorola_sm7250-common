@@ -4,5 +4,8 @@ ro.qcom.ims.use_moto_vt_ext=true
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# Motorola
+ro.vendor.mot.factory=false
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
