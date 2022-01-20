@@ -18,13 +18,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mmi.chipset.rc",
-    src: "init.mmi.chipset.rc",
-    relative_install_path: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.mmi.rc",
     src: "init.mmi.rc",
     relative_install_path: "init/hw",
