@@ -326,9 +326,6 @@ on property:ro.vendor.hw.dualsim=true
 on property:ro.vendor.hw.dualsim=false
    setprop persist.radio.multisim.config ""
 
-on property:sys.sysctl.swappiness=*
-    write /proc/sys/vm/swappiness ${sys.sysctl.swappiness}
-
 service vendor.mmi-touch-sh /vendor/bin/init.mmi.touch.sh
     class core
     user root
@@ -385,19 +382,6 @@ service vendor.thermal-com /vendor/bin/thermal-engine --minimode
     socket thermal-recv-passive-client stream 0666 system oem_2907
     socket thermal-send-rule stream 0660 system oem_2907
     disabled
-
-on property:vendor.wifi.tethering=false
-    write /sys/module/wlan/parameters/sar_mhs disabled
-
-on property:vendor.wifi.tethering=true
-    write /sys/module/wlan/parameters/sar_mhs enabled
-
-#Override fwpath string when wpa_supplicant server was killed
-on property:vendor.wifi.station=true
-    write /sys/module/wlan/parameters/sar_sta enabled
-
-on property:vendor.wifi.station=false
-    write /sys/module/wlan/parameters/sar_sta disabled
 
 on property:persist.sys.locale=*
     mkdir /mnt/vendor/persist/chargeonly 0770 system system
