@@ -192,6 +192,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1  \
     persist.dbg.wfc_avail_ovr=1
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.qcom.ims.use_moto_vt_ext=true
+
 # Incremental FS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.incremental.enable=1
