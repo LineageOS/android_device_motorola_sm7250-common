@@ -196,7 +196,6 @@ PRODUCT_PACKAGES += \
     init.mmi.rc \
     init.mmi.touch.sh \
     init.mmi.usb.rc \
-    init.mmi.usb.sh \
     init.oem.hw.sh \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
