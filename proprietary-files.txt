@@ -619,7 +619,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 # Radio
 etc/permissions/privapp-permissions-qti.xml
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
--system_ext/app/datastatusnotification/datastatusnotification.apk
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/embms.xml
 system_ext/etc/permissions/qcrilhook.xml
