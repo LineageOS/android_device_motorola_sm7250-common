@@ -72,7 +72,8 @@ TARGET_KERNEL_SOURCE := kernel/motorola/sm7250
 TARGET_KERNEL_CONFIG := \
     vendor/lito-perf_defconfig \
     vendor/ext_config/moto-lito.config vendor/ext_config/$(PRODUCT_DEVICE)-default.config \
-    vendor/ext_config/lineage_moto-lito.config vendor/ext_config/lineage_$(PRODUCT_DEVICE)-default.config
+    vendor/ext_config/lineage_moto-lito.config vendor/ext_config/lineage_$(PRODUCT_DEVICE)-default.config \
+    vendor/debugfs.config
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
