@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccf5bd76_043d9dcd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-03-31T13:04:21Z",
+      "side": 1,
+      "message": "moto-7250-ims chain confirmed working on Racer, Nairo, Smith",
+      "revId": "0c7a8f0104be02e99e99f207fb6ec0f8e2ecae0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
