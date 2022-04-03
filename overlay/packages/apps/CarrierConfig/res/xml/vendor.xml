@@ -1658,11 +1658,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="gps.persist_lpp_mode_bool" value="false" />
         <boolean name="show_iccid_in_sim_status_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">7</string>
         <string name="gps.supl_host">NONE</string>
@@ -1818,20 +1813,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -1891,20 +1872,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -1955,20 +1922,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2014,20 +1967,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2073,20 +2012,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2132,20 +2057,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2191,20 +2102,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2254,20 +2151,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2313,20 +2196,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2377,20 +2246,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="43200000" />
     </carrier_config>
 
@@ -2425,20 +2280,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2511,20 +2352,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2562,20 +2389,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="43200000" />
     </carrier_config>
 
@@ -2612,20 +2425,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="43200000" />
     </carrier_config>
 
@@ -2655,20 +2454,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="43200000" />
     </carrier_config>
 
@@ -2699,20 +2484,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2772,20 +2543,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -2926,32 +2683,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="wifi_calls_can_be_hd_audio" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false"/>
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-115" />
-            <item value="-105" />
-            <item value="-95" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-30" />
-            <item value="10" />
-            <item value="45" />
-            <item value="130" />
-        </int-array>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">7</string>
         <string name="gps.supl_host">NONE</string>
@@ -3117,20 +2848,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_apn_setting_cdma_bool" value="true" />
         <boolean name="show_iccid_in_sim_status_bool" value="true" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-121" />
-            <item value="-115" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
     </carrier_config>
 
     <carrier_config mcc="311" mnc="920">
@@ -5785,13 +5502,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     </carrier_config>
 
     <carrier_config cid="1" name="T-Mobile - US">
-        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="5">
-            <item value="-124" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <boolean name="drop_hold_call_for_emc_sim" value="false" />
         <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
@@ -7001,27 +6711,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
         <string name="gps.supl_host">NONE</string>
@@ -7617,24 +7306,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G</string>
         <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;not_restricted_rrc_idle,legacy,30;not_restricted_rrc_con,legacy,30</string>
-        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
-            <item value="-122" />
-            <item value="-121" />
-            <item value="-114" />
-            <item value="-107" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-128" />
-            <item value="-121" />
-            <item value="-114" />
-            <item value="-107" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="4">
-            <item value="-111" />
-            <item value="-105" />
-            <item value="-102" />
-            <item value="-95" />
-        </int-array>
     </carrier_config>
 
     <carrier_config cid="1436" name="China Unicom">
@@ -7652,24 +7323,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <string name="carrier_name_string">UNICOM</string>
         <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G</string>
         <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;not_restricted_rrc_idle,legacy,30;not_restricted_rrc_con,legacy,30</string>
-        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
-            <item value="-122" />
-            <item value="-121" />
-            <item value="-114" />
-            <item value="-107" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-128" />
-            <item value="-121" />
-            <item value="-114" />
-            <item value="-107" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="4">
-            <item value="-111" />
-            <item value="-105" />
-            <item value="-102" />
-            <item value="-95" />
-        </int-array>
     </carrier_config>
 
     <carrier_config cid="1442" name="Claro CO">
@@ -8009,12 +7662,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="307200" />
         <int name="recipientLimit" value="200" />
         <int name="smsToMmsTextThreshold" value="-1" />
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-126" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-95" />
-        </int-array>
         <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
         <string-array name="non_roaming_operator_string_array" num="17">
             <item value="22201" />
@@ -8048,12 +7695,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="307200" />
         <int name="recipientLimit" value="200" />
         <int name="smsToMmsTextThreshold" value="-1" />
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-126" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-95" />
-        </int-array>
         <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
         <string-array name="non_roaming_operator_string_array" num="17">
             <item value="22201" />
@@ -8588,20 +8229,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-121" />
-            <item value="-115" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">7</string>
         <string name="gps.supl_host">NONE</string>
@@ -9024,20 +8651,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-121" />
-            <item value="-115" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">7</string>
         <string name="gps.supl_host">NONE</string>
@@ -9229,18 +8842,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         </string-array>
         <int name="parameters_used_for_lte_signal_bar_int" value="5" />
         <int name="smsToMmsTextThreshold" value="10" />
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-127" />
-            <item value="-123" />
-            <item value="-121" />
-            <item value="-117" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="4">
-            <item value="-19" />
-            <item value="-3" />
-            <item value="1" />
-            <item value="1" />
-        </int-array>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">2</string>
         <string name="gps.supl_host">NONE</string>
@@ -9585,20 +9186,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="vvm_port_number_int" value="1808" />
         <int name="wfc_spn_format_idx_int" value="1" />
         <long name="message_expiration_time_long" value="86400000" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <string name="carrier_name_string">Metro by T-Mobile</string>
         <string name="carrier_vvm_package_name_string">com.metropcs.service.vvm</string>
         <string name="gps.es_extension_sec">0</string>
@@ -10157,30 +9744,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="1048576" />
         <int name="recipientLimit" value="20" />
         <int name="volte_replacement_rat_int" value="3" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -10259,30 +9822,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="1048576" />
         <int name="recipientLimit" value="20" />
         <int name="volte_replacement_rat_int" value="3" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -10361,30 +9900,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="1048576" />
         <int name="recipientLimit" value="20" />
         <int name="volte_replacement_rat_int" value="3" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -10463,30 +9978,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="1048576" />
         <int name="recipientLimit" value="20" />
         <int name="volte_replacement_rat_int" value="3" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -10589,30 +10080,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxMessageSize" value="1048576" />
         <int name="recipientLimit" value="20" />
         <int name="volte_replacement_rat_int" value="3" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -10687,32 +10154,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="video_calls_can_be_hd_audio" value="true" />
         <boolean name="wifi_calls_can_be_hd_audio" value="true" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-115" />
-            <item value="-105" />
-            <item value="-95" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-30" />
-            <item value="10" />
-            <item value="45" />
-            <item value="130" />
-        </int-array>
         <string name="carrier_eri_file_name_string">eri_comcast.xml</string>
         <string name="carrier_name_string">Xfinity Mobile</string>
         <string name="default_vm_number_string">*86</string>
@@ -10907,20 +10348,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="12" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <int-array name="omacp_auth_types_array" num="1">
             <item value="0" />
         </int-array>
@@ -10979,20 +10406,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="12" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">6</string>
@@ -11056,20 +10469,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="volte_replacement_rat_int" value="3" />
         <int name="vvm_port_number_int" value="1808" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
@@ -11133,20 +10532,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="12" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <int-array name="omacp_auth_types_array" num="1">
             <item value="0" />
         </int-array>
@@ -11806,20 +11191,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="recipientLimit" value="40" />
         <int name="smsToMmsTextThreshold" value="6" />
         <int name="volte_replacement_rat_int" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-121" />
-            <item value="-115" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
         <string name="carrier_eri_file_name_string">eri_310120.xml</string>
         <string name="carrier_name_string">Sprint</string>
         <string name="emailGatewayNumber">6245</string>
@@ -11916,32 +11287,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="7" />
         <int name="volte_replacement_rat_int" value="6" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-115" />
-            <item value="-105" />
-            <item value="-95" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-30" />
-            <item value="10" />
-            <item value="45" />
-            <item value="130" />
-        </int-array>
         <string name="5g_icon_configuration_string" value="connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G" />
         <string name="carrier_eri_file_name_string">eri_visible.xml</string>
         <string name="carrier_name_string" />
@@ -12126,24 +11471,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G</string>
         <string name="5g_icon_display_grace_period_string">connected_mmwave,legacy,30;connected,legacy,30;not_restricted_rrc_idle,legacy,30;not_restricted_rrc_con,legacy,30</string>
         <string name="carrier_eri_file_name_string">eri_china-telecom.xml</string>
-        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
-            <item value="-122" />
-            <item value="-121" />
-            <item value="-114" />
-            <item value="-107" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-128" />
-            <item value="-121" />
-            <item value="-114" />
-            <item value="-107" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="4">
-            <item value="-111" />
-            <item value="-105" />
-            <item value="-102" />
-            <item value="-95" />
-        </int-array>
     </carrier_config>
 
     <carrier_config cid="2249" name="Quam_WEB">
@@ -12957,20 +12284,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="maxSubjectLength" value="80" />
         <int name="recipientLimit" value="40" />
         <int name="smsToMmsTextThreshold" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-121" />
-            <item value="-115" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
         <string name="emailGatewayNumber">6245</string>
         <string name="httpParams">X-MDN: ##LINE1##|Proxy-Authorization: Basic ##NAI##</string>
         <string name="naiSuffix">:pcs</string>
@@ -13084,13 +12397,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="vvm_port_number_int" value="1808" />
         <int name="wfc_spn_format_idx_int" value="1" />
         <int name="wifi.carrier_profiles_version_int" value="1" />
-        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="5">
-            <item value="-124" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <string name="5g_icon_display_grace_period_string" value="connected_mmwave,legacy,30;connected,legacy,30;not_restricted_rrc_idle,legacy,30;             not_restricted_rrc_con,legacy,30" />
         <string name="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
         <string name="vvm_destination_number_string">122</string>
@@ -13142,27 +12448,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="recipientLimit" value="20" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
         <string name="gps.supl_host">NONE</string>
@@ -13212,20 +12497,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="12" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <int-array name="omacp_auth_types_array" num="1">
             <item value="0" />
         </int-array>
@@ -13369,32 +12640,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-115" />
-            <item value="-105" />
-            <item value="-95" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-30" />
-            <item value="10" />
-            <item value="45" />
-            <item value="130" />
-        </int-array>
         <string name="carrier_eri_file_name_string">eri_tracfone.xml</string>
         <string name="carrier_name_string">EMPTY</string>
         <string name="default_vm_number_string">*86</string>
@@ -13535,20 +12780,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="volte_replacement_rat_int" value="3" />
         <int name="vvm_port_number_int" value="1808" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
@@ -13712,20 +12943,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-113" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-121" />
-            <item value="-115" />
-            <item value="-109" />
-            <item value="-101" />
-        </int-array>
         <string name="carrier_name_string">Project Fi</string>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">7</string>
@@ -13804,32 +13021,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_iccid_in_sim_status_bool" value="true" />
         <boolean name="smsUsesSimpleCharactersOnly" value="false" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-115" />
-            <item value="-105" />
-            <item value="-95" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-30" />
-            <item value="10" />
-            <item value="45" />
-            <item value="130" />
-        </int-array>
     </carrier_config>
 
     <carrier_config mcc="204" mnc="04" spn="HOT MOBILE">
@@ -14017,12 +13208,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="maxMessageSize" value="307200" />
         <int name="smsToMmsTextThreshold" value="-1" />
-        <int-array name="lte_rsrp_thresholds_int_array" num="4">
-            <item value="-126" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-95" />
-        </int-array>
         <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
     </carrier_config>
 
@@ -14469,27 +13654,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -14536,30 +13700,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="omacp_auth_types_array" num="1">
-            <item value="0" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">EMPTY</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -14658,20 +13798,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -14717,27 +13843,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -14784,30 +13889,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="omacp_auth_types_array" num="1">
-            <item value="0" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">EMPTY</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -14860,20 +13941,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -14927,20 +13994,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -14994,20 +14047,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15061,20 +14100,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15128,20 +14153,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15197,20 +14208,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <int-array name="omacp_auth_types_array" num="1">
             <item value="0" />
         </int-array>
@@ -15270,20 +14267,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <int-array name="omacp_auth_types_array" num="1">
             <item value="0" />
         </int-array>
@@ -15333,20 +14316,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="vvm_type_string">vvm_type_disable</string>
@@ -15399,20 +14368,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="12" />
         <int name="wfc_flight_mode_spn_format_idx_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <int-array name="omacp_auth_types_array" num="1">
             <item value="0" />
         </int-array>
@@ -15470,20 +14425,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15526,20 +14467,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="smsToMmsTextThreshold" value="12" />
         <int name="vvm_port_number_int" value="1808" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
         <string name="gps.lpp_profile">6</string>
@@ -15594,20 +14521,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15661,20 +14574,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15728,20 +14627,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15795,20 +14680,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15862,20 +14733,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15929,20 +14786,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -15996,20 +14839,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16063,20 +14892,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16130,20 +14945,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16198,20 +14999,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16265,20 +15052,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16332,20 +15105,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16399,20 +15158,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16447,30 +15192,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="support_pause_ims_video_calls_bool" value="false" />
         <boolean name="support_video_conference_call_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="gps.lpp_profile">11</string>
         <string name="gps.supl_host">NONE</string>
         <string name="show_carrier_data_icon_pattern_string" />
@@ -16562,20 +15283,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="6" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="43200000" />
     </carrier_config>
 
@@ -16611,20 +15318,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -16670,27 +15363,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -16737,30 +15409,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="omacp_auth_types_array" num="1">
-            <item value="0" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">EMPTY</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -16798,30 +15446,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="support_pause_ims_video_calls_bool" value="false" />
         <boolean name="support_video_conference_call_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="radio_restart_failure_causes_int_array" num="1">
-            <item value="36" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="gps.lpp_profile">11</string>
         <string name="gps.supl_host">NONE</string>
         <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
@@ -16928,27 +15552,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -16995,30 +15598,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="omacp_auth_types_array" num="1">
-            <item value="0" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">EMPTY</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -17132,20 +15711,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -17199,20 +15764,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="emc_connection_limit_int_sim" value="50000" />
         <int name="recipientLimit" value="20" />
         <int name="smsToMmsTextThreshold" value="12" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-119" />
-            <item value="-114" />
-            <item value="-109" />
-            <item value="-99" />
-        </int-array>
         <long name="message_expiration_time_long" value="86400000" />
         <string name="carrier_name_string" />
         <string name="gps.es_extension_sec">0</string>
@@ -17291,27 +15842,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -17358,30 +15888,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
         <int name="wfc_spn_format_idx_int" value="1" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="omacp_auth_types_array" num="1">
-            <item value="0" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">EMPTY</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -17426,27 +15932,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="recipientLimit" value="20" />
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-88" />
-            <item value="-79" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-118" />
-            <item value="-112" />
-            <item value="-106" />
-            <item value="-100" />
-        </int-array>
-        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-105" />
-            <item value="-99" />
-            <item value="-89" />
-            <item value="-79" />
-        </int-array>
         <string name="carrier_name_string">AT&amp;T</string>
         <string name="gps.es_extension_sec">0</string>
         <string name="gps.lpp_profile">11</string>
@@ -17541,32 +16026,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="wifi_calls_can_be_hd_audio" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
-        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
-            <item value="64" />
-            <item value="65" />
-            <item value="66" />
-        </int-array>
-        <int-array name="gsm_rssi_thresholds_int_array" num="5">
-            <item value="-113" />
-            <item value="-103" />
-            <item value="-97" />
-            <item value="-93" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rsrp_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-115" />
-            <item value="-105" />
-            <item value="-95" />
-            <item value="-85" />
-        </int-array>
-        <int-array name="lte_rssnr_thresholds_int_array" num="5">
-            <item value="-999" />
-            <item value="-30" />
-            <item value="10" />
-            <item value="45" />
-            <item value="130" />
-        </int-array>
         <string name="gps.es_extension_sec">300</string>
         <string name="gps.lpp_profile">7</string>
         <string name="gps.supl_host">NONE</string>
