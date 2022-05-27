@@ -10,6 +10,22 @@ import /vendor/etc/init/hw/init.mmi.usb.rc
 on early-boot
     write /sys/module/subsystem_restart/parameters/disable_restart_work 0x0
 
+    # Determine which ipa firmware to load
+    exec_start vendor.ipa_fws-sh
+
+on property:ro.vendor.load.old_ipa=1
+    mount none /vendor/firmware/old_ipa/ipa_fws.b00 /vendor/firmware/ipa_fws.b00 bind
+    mount none /vendor/firmware/old_ipa/ipa_fws.b01 /vendor/firmware/ipa_fws.b01 bind
+    mount none /vendor/firmware/old_ipa/ipa_fws.b02 /vendor/firmware/ipa_fws.b02 bind
+    mount none /vendor/firmware/old_ipa/ipa_fws.b03 /vendor/firmware/ipa_fws.b03 bind
+    mount none /vendor/firmware/old_ipa/ipa_fws.b04 /vendor/firmware/ipa_fws.b04 bind
+    mount none /vendor/firmware/old_ipa/ipa_fws.elf /vendor/firmware/ipa_fws.elf bind
+    mount none /vendor/firmware/old_ipa/ipa_fws.mdt /vendor/firmware/ipa_fws.mdt bind
+    write /dev/ipa 1
+
+on property:ro.vendor.load.ipa=1
+    write /dev/ipa 1
+
 on init
     chown system log /sys/fs/pstore/console-ramoops-0
     chmod 0440 /sys/fs/pstore/console-ramoops-0
@@ -350,6 +366,12 @@ service vendor.mmi-touch-sh /vendor/bin/init.mmi.touch.sh
     class core
     user root
     oneshot
+
+service vendor.ipa_fws-sh /vendor/bin/init.ipa_fws.sh
+    class core
+    user root
+    oneshot
+    disabled
 
 service vendor.oem-hw-sh /vendor/bin/init.oem.hw.sh
     class core
