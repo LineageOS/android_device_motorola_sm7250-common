@@ -18,6 +18,7 @@
 # Vendor init scripts
 /(vendor|system/vendor)/bin/init\.mmi\.(touch|laser|usb)\.sh               u:object_r:vendor_qti_init_shell_exec:s0
 /(vendor|system/vendor)/bin/init\.oem\.hw\.sh                              u:object_r:vendor_qti_init_shell_exec:s0
+/(vendor|system/vendor)/bin/init\.ipa_fws\.sh                              u:object_r:vendor_qti_init_shell_exec:s0
 
 # Capsense
 /(vendor|system/vendor)/bin/capsense_reset                                 u:object_r:capsense_reset_exec:s0

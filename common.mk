@@ -195,6 +195,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
     init.crda.sh \
+    init.ipa_fws.sh \
     init.mdm.sh \
     init.mmi.chipset.rc \
     init.mmi.rc \
