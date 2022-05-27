@@ -6,7 +6,6 @@ vendor.rmnet_vnd.rps_mask  u:object_r:vendor_usb_prop:s0
 
 # Motorola
 ro.boot.adb_early          u:object_r:moto_boot_prop:s0
-ro.boot.bootloader         u:object_r:moto_boot_prop:s0
 ro.boot.secure_hardware    u:object_r:moto_boot_prop:s0
 ro.boot.radio              u:object_r:moto_boot_prop:s0
 ro.boot.device             u:object_r:moto_boot_prop:s0
@@ -45,8 +44,3 @@ vendor.powerhal.rendering  u:object_r:power_prop:s0
 
 # FM Radio
 ro.vendor.fm.              u:object_r:vendor_fm_prop:s0
-
-# IPA
-ro.vendor.new_bootloader      u:object_r:moto_boot_prop:s0
-ro.vendor.load.ipa            u:object_r:moto_boot_prop:s0
-ro.vendor.load.old_ipa        u:object_r:moto_boot_prop:s0
