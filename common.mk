@@ -271,10 +271,6 @@ PRODUCT_PACKAGES += \
     MotoActions \
     MotoCommonOverlay
 
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
