@@ -530,7 +530,6 @@ vendor/lib64/vendor.qti.ims.factory@1.1.so
 # Qualcomm MSM Interface
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
-vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
