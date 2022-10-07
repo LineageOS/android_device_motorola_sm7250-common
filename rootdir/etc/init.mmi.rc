@@ -438,5 +438,8 @@ on property:persist.sys.locale=*
 on property:ro.carrier=softbank
     setprop audio.camerasound.force true
 
-on property:ro.sys.force_max_chrg_temp=*
-    write /sys/class/power_supply/battery/device/force_max_chrg_temp ${ro.sys.force_max_chrg_temp}
+on property:ro.carrier=tmo
+    write /sys/class/power_supply/battery/device/force_max_chrg_temp 55
+
+on property:ro.carrier=metropcs
+    write /sys/class/power_supply/battery/device/force_max_chrg_temp 55
