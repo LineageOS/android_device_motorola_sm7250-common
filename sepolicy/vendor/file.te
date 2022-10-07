@@ -20,3 +20,7 @@ type proc_sched_lib_mask_cpuinfo, proc_type, fs_type;
 
 # Motorola
 type proc_moto_boot, proc_type, fs_type;
+
+# NFC
+type nxpese_hwservice, hwservice_manager_type;
+type nxpnfc_hwservice, hwservice_manager_type;
