@@ -7,3 +7,6 @@ vendor.nxp.nxpnfc::INxpNfc                                                      
 
 # Moto Health
 motorola.hardware.health::IMotHealth                                              u:object_r:hal_health_hwservice:s0
+
+# VPP
+::vppService                                                                      u:object_r:vendor_hal_vpp_hwservice:s0
