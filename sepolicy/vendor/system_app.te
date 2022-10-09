@@ -1,2 +1,4 @@
 # FM Radio
 get_prop(system_app, vendor_fm_prop)
+
+allow system_app zygote:unix_stream_socket { getopt };
