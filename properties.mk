@@ -326,6 +326,25 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
 
+# RmNet Data
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.rmnet.data.enable=true \
+    persist.data.wda.enable=true \
+    persist.data.df.dl_mode=5 \
+    persist.data.df.ul_mode=5 \
+    persist.data.df.agg.dl_pkt=10 \
+    persist.data.df.agg.dl_size=4096 \
+    persist.data.df.mux_count=8 \
+    persist.data.df.iwlan_mux=9 \
+    persist.data.df.dev_name=rmnet_usb0 \
+    vendor.usb.dpl.inst.name=dpl \
+    vendor.usb.qdss.inst.name=qdss_sw \
+    vendor.usb.rmnet.func.name=gsi \
+    vendor.usb.rmnet.inst.name=rmnet \
+    vendor.usb.rndis.func.name=gsi \
+    vendor.usb.use_ffs_mtp=1 \
+    vendor.usb.use_gadget_hal=0
+
 # WiFi
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     config.disable_rtt=true
