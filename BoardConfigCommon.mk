@@ -70,6 +70,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/sm8250
 TARGET_KERNEL_CONFIG := \
     vendor/lito-perf_defconfig \
     vendor/ext_config/moto-lito.config vendor/ext_config/$(PRODUCT_DEVICE)-default.config
+TARGET_KERNEL_NO_GCC := true
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
