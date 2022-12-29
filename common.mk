@@ -297,6 +297,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
 
+# TimeKeep
+PRODUCT_PACKAGES += \
+    TimeKeep
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
