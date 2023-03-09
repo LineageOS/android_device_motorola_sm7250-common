@@ -268,9 +268,7 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    NfcNci \
-    Tag \
-    SecureElement
+    Tag
 
 # Partitions
 PRODUCT_PACKAGES += \
