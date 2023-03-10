@@ -311,6 +311,7 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GPS
+vendor/app/CACertService/CACertService.apk
 vendor/bin/garden_app
 vendor/bin/loc_launcher
 vendor/bin/lowi-server;DISABLE_CHECKELF
