@@ -104,10 +104,6 @@ vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 
-# Bluetooth (aptX)
-system/lib64/libaptXHD_encoder.so
-system/lib64/libaptX_encoder.so
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
