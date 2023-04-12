@@ -210,9 +210,6 @@
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_vt_available">true</bool>
 
-    <!-- Flag specifying whether VoLTE TTY is supported -->
-    <bool name="config_carrier_volte_tty_supported">true</bool>
-
     <!-- Config determines whether to update phone object when voice registration
          state changes. Voice radio tech change will always trigger an update of
          phone object irrespective of this config -->
