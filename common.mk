@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     init.crda.sh \
     init.mdm.sh \
     init.mmi.chipset.rc \
+    init.mmi.dalvik.rc \
     init.mmi.rc \
     init.mmi.touch.sh \
     init.oem.hw.sh \
