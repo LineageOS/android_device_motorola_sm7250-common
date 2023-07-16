@@ -16,6 +16,23 @@
       "message": "305487: sm7250-common: qssi:  Define ro.media.recorder-max-base-layer-fps | https://review.lineageos.org/c/LineageOS/android_device_motorola_sm7250-common/+/305487",
       "revId": "4e01b1faea13d82296eb21a32a2b9e49d3726336",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e2edae1_b618a8ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32846
+      },
+      "writtenOn": "2023-07-16T09:49:19Z",
+      "side": 1,
+      "message": "cuando la velocidad de fotogramas es mayor que max-base-layer-fps 144",
+      "revId": "4e01b1faea13d82296eb21a32a2b9e49d3726336",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
