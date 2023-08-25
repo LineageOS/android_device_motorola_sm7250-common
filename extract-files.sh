@@ -24,7 +24,7 @@ source "${HELPER}"
 function blob_fixup() {
     case "${1}" in
     # libgui shim
-    system_ext/lib64/lib-imsvideocodec.so | system_ext/lib64/libimsmedia_jni.so)
+    system_ext/lib/lib-imsvideocodec.so | system_ext/lib64/lib-imsvideocodec.so)
         grep -q "libgui_shim.so" "${2}" || "${PATCHELF}" --add-needed libgui_shim.so "${2}"
         ;;
     # Fix xml version
