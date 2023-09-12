@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-BUILD_BROKEN_DUP_RULES := true
-
 BOARD_VENDOR := motorola
 
 VENDOR_PATH := device/motorola/sm7250-common
