@@ -139,8 +139,8 @@ on post-fs
     chmod 0660 /sys/class/capsense/calibrate
 
     # Setting Swappiness
-    write /proc/sys/vm/swappiness 100
-    setprop sys.sysctl.swappiness 100
+    write /proc/sys/vm/swappiness 60
+    setprop sys.sysctl.swappiness 60
 
 on post-fs-data
     # Setup folders for security
