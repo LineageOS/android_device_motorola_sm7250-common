@@ -26,6 +26,7 @@ genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_hb
 # Vibrator
 genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-1/1-005a/leds/vibrator      u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-2/2-005a/leds/vibrator      u:object_r:sysfs_vibrator:s0
+genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-3/3-005a/leds/vibrator      u:object_r:sysfs_vibrator:s0
 
 # Health
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5-mmi/power_supply u:object_r:vendor_sysfs_battery_supply:s0
