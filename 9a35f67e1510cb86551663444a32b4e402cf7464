@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a49c766e_ec9dd709",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-11-07T01:12:01Z",
+      "side": 1,
+      "message": "Provisioning works on smith for t-mobile after this change, whereas it did not before.",
+      "revId": "9a35f67e1510cb86551663444a32b4e402cf7464",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
