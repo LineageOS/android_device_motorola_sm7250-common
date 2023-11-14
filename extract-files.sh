@@ -36,7 +36,7 @@ function blob_fixup() {
         sed -i 's/xml version="2.0"/xml version="1.0"/' "${2}"
         ;;
     system_ext/etc/permissions/moto-telephony.xml)
-        sed -i "s|system|system/system_ext|" "${2}"
+        sed -i "s|system/framework|system/system_ext/framework|" "${2}"
         ;;
     esac
 }
