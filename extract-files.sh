@@ -25,7 +25,7 @@ function blob_fixup() {
     case "${1}" in
     # libgui shim
     system_ext/lib64/lib-imsvideocodec.so | system_ext/lib64/libimsmedia_jni.so)
-        "${PATCHELF}" --add-needed libgui_shim.so "${2}"
+        grep -q "libgui_shim.so" "${2}" || "${PATCHELF}" --add-needed libgui_shim.so "${2}"
         ;;
     # WFD
     system_ext/lib/libwfdnative.so | system_ext/lib64/libwfdnative.so)
