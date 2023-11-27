@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc6fb599_fc380621",
+        "filename": "sepolicy/vendor/vendor_fm_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-11-27T18:13:38Z",
+      "side": 1,
+      "message": "you can just nuke this line, it\u0027s the same as get_prop macro a few lines below\n\nhttps://github.com/LineageOS/android_system_sepolicy/blob/lineage-20.0/public/te_macros#L360",
+      "revId": "be9aa0dc9f2cb693f93f7ab91e7612989c39816c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
