@@ -7,6 +7,8 @@ import /vendor/etc/init/hw/init.mmi.charge_only.rc
 on early-boot
     write /sys/module/subsystem_restart/parameters/disable_restart_work 0x0
 
+    chown system system /sys/class/touchscreen/primary/gesture
+
 on init
     chown system log /proc/driver/mmi_annotate
     chmod 0640 /proc/driver/mmi_annotate
