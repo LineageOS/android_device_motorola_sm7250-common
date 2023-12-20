@@ -218,6 +218,11 @@ TARGET_RPM_MASTER_STAT := "/d/rpmh/master_stats"
 TARGET_RPM_STAT := "/d/rpmh/stats"
 TARGET_WLAN_POWER_STAT := "/sys/kernel/wlan/power_stats"
 
+# Properties
+TARGET_PRODUCT_PROP += $(VENDOR_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
+TARGET_VENDOR_PROP += $(VENDOR_PATH)/vendor.prop
+
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
