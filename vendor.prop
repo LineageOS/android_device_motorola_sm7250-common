@@ -129,6 +129,7 @@ persist.sys.fuse.passthrough.enable=true
 
 # Graphics
 debug.egl.hw=0
+debug.hwui.skia_atrace_enabled=false
 debug.mdpcomp.logs=0
 debug.sf.hw=0
 persist.demo.hdmirotationlock=false
