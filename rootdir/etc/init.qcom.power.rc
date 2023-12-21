@@ -77,13 +77,6 @@ on init
     write /sys/devices/system/cpu/cpu6/online 1
     write /sys/devices/system/cpu/cpu7/online 1
 
-    mkdir /dev/cpuset/camera-daemon
-    write /dev/cpuset/camera-daemon/cpus 0-7
-    write /dev/cpuset/camera-daemon/mems 0
-    chown system system /dev/cpuset/camera-daemon
-    chown system system /dev/cpuset/camera-daemon/tasks
-    chmod 0664 /dev/cpuset/camera-daemon/tasks
-
     mkdir /dev/cpuset/camera-daemon-dedicated
     write /dev/cpuset/camera-daemon-dedicated/cpus 0-7
     write /dev/cpuset/camera-daemon-dedicated/mems 0
