@@ -199,7 +199,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sdio.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qti.chg_policy.sh \
     init.qti.fm.sh \
     init.qti.ims.sh \
     init.recovery.qcom.rc \
