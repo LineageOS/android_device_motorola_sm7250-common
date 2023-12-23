@@ -195,12 +195,6 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib/libcvp_common.so
 vendor/lib64/libcvp_common.so
 
-# Charger
-vendor/bin/hvdcp_opti
-vendor/etc/charger_fstab.qti
-vendor/etc/init/hw/init.mmi.charge_only.rc
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
-
 # Display - from pstar T1RA33.55-15-16-5 d9def9-6b8134
 vendor/lib64/libdisp-aba.so|41fc61cdc8821ed206f649dd2eb5562b346ade77
 vendor/lib64/libdisplayqos.so|15701f18257c43be5657bbd867a8acf1f469e373
