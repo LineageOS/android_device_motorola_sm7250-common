@@ -40,7 +40,6 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
     (
         'libqsap_sdk',
-        'libril',
         'libwpa_client',
     ): lib_fixup_remove,
 }
@@ -59,6 +58,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('system_ext', 'product'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    ('vendor/lib64/libmotext_inf.so', 'vendor/lib64/libril-qcril-hook-oem.so'): blob_fixup()
+        .remove_needed('libril.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
