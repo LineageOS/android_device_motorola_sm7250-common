@@ -58,6 +58,8 @@ blob_fixups: blob_fixups_user_type = {
         .apktool_patch('ims-patches'),
     'vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml': blob_fixup()
         .regex_replace('system_ext', 'product'),
+    'vendor/lib64/libwvhidl.so': blob_fixup()
+        .add_needed('libcrypto_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
