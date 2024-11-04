@@ -50,6 +50,23 @@
       "message": "ro.logd.size.stats\t64K",
       "revId": "4e01b1faea13d82296eb21a32a2b9e49d3726336",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e70e8c66_d22918d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34321
+      },
+      "writtenOn": "2024-11-04T19:59:13Z",
+      "side": 1,
+      "message": "ro.logd.size.stats\t64K",
+      "revId": "4e01b1faea13d82296eb21a32a2b9e49d3726336",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
