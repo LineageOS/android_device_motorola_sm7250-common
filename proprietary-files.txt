@@ -564,11 +564,7 @@ vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
 # Qualcomm IMS Factory
-system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar
-system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar
-vendor/lib/vendor.qti.ims.factory@1.0.so
 vendor/lib/vendor.qti.ims.factory@1.1.so
-vendor/lib64/vendor.qti.ims.factory@1.0.so
 vendor/lib64/vendor.qti.ims.factory@1.1.so
 
 # Qualcomm MSM Interface
@@ -650,11 +646,6 @@ vendor/etc/init/vendor.mmi.carrier.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/seccomp_policy/atfwd@2.0.policy
-vendor/lib/lib-rtpcommon.so
-vendor/lib/lib-rtpcore.so
-vendor/lib/lib-rtpsl.so
-vendor/lib/lib-siputility.so
-vendor/lib/lib-uceservice.so
 vendor/lib/libconfigdb.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libnetmgr.so
@@ -823,9 +814,6 @@ vendor/lib/com.qualcomm.qti.uceservice@2.0.so
 vendor/lib/com.qualcomm.qti.uceservice@2.1.so
 vendor/lib/com.qualcomm.qti.uceservice@2.2.so
 vendor/lib/com.qualcomm.qti.uceservice@2.3.so
-vendor/lib/vendor.qti.ims.rcsconfig@1.0.so
-vendor/lib/vendor.qti.ims.rcsconfig@1.1.so
-vendor/lib/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=-vendor
 vendor/lib/vendor.qti.imsrtpservice@3.0-service-Impl.so
@@ -919,24 +907,6 @@ vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
 vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
-
-# Snapdragon Computer Vision Engine
-vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libfastcvopt.so
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libfastcvdsp_stub.so
