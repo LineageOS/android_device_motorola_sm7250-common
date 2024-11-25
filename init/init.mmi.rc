@@ -385,12 +385,6 @@ on property:vendor.hw.touch.status="dead"
 on property:vendor.hw.touch.status="ready"
     start vendor.touch-ready-sh
 
-service vendor.charge_only_mode /vendor/bin/charge_only_mode
-    user root
-    group graphics system input
-    capabilities SYS_BOOT
-    disabled
-
 service vendor.thermal-com /vendor/bin/thermal-engine --minimode
     class main
     user root
