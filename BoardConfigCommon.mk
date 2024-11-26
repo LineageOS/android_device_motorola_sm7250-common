@@ -159,7 +159,8 @@ TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_lito
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lito
 
 # Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/qcom_battery/battery_charging_enabled
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := true
 
 # Media
 TARGET_USES_ION := true
