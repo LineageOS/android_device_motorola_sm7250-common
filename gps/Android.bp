@@ -17,31 +17,3 @@ GNSS_CFLAGS = [
     "-Wno-error=date-time",
     "-Wno-deprecated-volatile",
 ]
-
-/* Activate the following for regression testing */
-GNSS_SANITIZE = {
-/*  address: true,*/
-    cfi: true,
-    misc_undefined: [
-        "bounds",
-        "null",
-        "unreachable",
-        "integer",
-    ],
-}
-
-/* Activate the following for debug purposes only,
-   comment out for production */
-GNSS_SANITIZE_DIAG = {
-/*
-    diag: {
-        cfi: true,
-        misc_undefined: [
-            "bounds",
-            "null",
-            "unreachable",
-            "integer",
-        ],
-    },
-*/
-}
