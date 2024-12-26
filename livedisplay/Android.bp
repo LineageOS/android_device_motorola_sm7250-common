@@ -39,7 +39,7 @@ cc_defaults {
 
 cc_binary {
     name: "vendor.lineage.livedisplay@2.0-service-sysfs.motorola_lito",
-    init_rc: ["vendor.lineage.livedisplay@2.0-service-sysfs.motorola_lito.rc"],
     defaults: ["livedisplay_motorola_lito"],
+    init_rc: ["vendor.lineage.livedisplay@2.0-service-sysfs.motorola_lito.rc"],
     vendor: true,
 }
