@@ -410,17 +410,6 @@ on property:vendor.wifi.tethering=false
 on property:vendor.wifi.tethering=true
     write /sys/module/wlan/parameters/sar_mhs enabled
 
-# Override the AOSP sensor HAL service definition
-# from hardware/interfaces/sensors/2.0/multihal
-# to add input and uhid group access
-service vendor.sensors-hal-2-0-multihal /vendor/bin/hw/android.hardware.sensors@2.0-service.multihal
-    class hal
-    user system
-    group system wakelock context_hub input uhid
-    writepid /dev/cpuset/system-background/tasks
-    capabilities BLOCK_SUSPEND
-    rlimit rtprio 10 10
-
 #Override fwpath string when wpa_supplicant server was killed
 on property:vendor.wifi.station=true
     write /sys/module/wlan/parameters/sar_sta enabled
