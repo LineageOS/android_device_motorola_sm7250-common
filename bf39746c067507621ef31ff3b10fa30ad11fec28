@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfc386f7_0a1a7ccd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-02-27T08:20:57Z",
+      "side": 1,
+      "message": "You may want to commonize the C2 configs as well btw. OMX has been completely removed from common.",
+      "revId": "bf39746c067507621ef31ff3b10fa30ad11fec28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
