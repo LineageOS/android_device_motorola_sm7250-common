@@ -132,15 +132,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     liba2dpoffload
 
-ifneq (,$(filter %kiev %nairo, $(TARGET_PRODUCT)))
-PRODUCT_PACKAGES += \
-    firmware_aw_cali.bin_symlink
-else
-PRODUCT_PACKAGES += \
-    audio.primary.lito \
-    libqcompostprocbundle
-endif
-
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
@@ -282,13 +273,6 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
     SecureElement
-ifneq (,$(filter %kiev, $(TARGET_PRODUCT)))
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service
-else
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.st
-endif
 
 # Partitions
 PRODUCT_PACKAGES += \
