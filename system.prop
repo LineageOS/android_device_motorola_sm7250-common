@@ -28,7 +28,6 @@ debug.sf.enable_hwc_vds=1
 
 # Media
 av.offload.enable=true
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
 vendor.swvdec.log.level=1
 vendor.vidc.debug.level=1
