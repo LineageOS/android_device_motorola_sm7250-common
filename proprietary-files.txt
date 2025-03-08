@@ -448,7 +448,6 @@ vendor/lib64/libmulawdec.so
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
-vendor/etc/system_properties.xml
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libqcbor.so
