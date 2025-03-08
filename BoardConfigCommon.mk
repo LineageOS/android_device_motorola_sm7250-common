@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2022 The LineageOS Project
+# Copyright (C) 2017-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-VENDOR_PATH := device/motorola/sm7250-common
+COMMON_PATH := device/motorola/sm7250-common
 
 # Architecture
 TARGET_ARCH := arm64
@@ -128,23 +128,23 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := \
-    $(VENDOR_PATH)/config.fs \
-    $(VENDOR_PATH)/mot_aids.fs
+    $(COMMON_PATH)/config.fs \
+    $(COMMON_PATH)/mot_aids.fs
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(VENDOR_PATH)/framework_compatibility_matrix.xml \
+    $(COMMON_PATH)/framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix_legacy.xml \
     vendor/lineage/config/device_framework_matrix.xml
-DEVICE_MATRIX_FILE := $(VENDOR_PATH)/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_lito
+TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_lito
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lito
 
 # Lineage Health
@@ -179,16 +179,16 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Properties
-TARGET_PRODUCT_PROP += $(VENDOR_PATH)/product.prop
-TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
-TARGET_SYSTEM_EXT_PROP += $(VENDOR_PATH)/system_ext.prop
-TARGET_VENDOR_PROP += $(VENDOR_PATH)/vendor.prop
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
-TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/init/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/init/fstab.qcom
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
@@ -196,8 +196,8 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/private
-BOARD_VENDOR_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
