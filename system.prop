@@ -35,11 +35,6 @@ persist.mm.enable.prefetch=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_age=5000
-ro.vendor.qti.sys.fw.bservice_enable=true
-ro.vendor.qti.sys.fw.bservice_limit=8
-
 # Netflix
 ro.netflix.bsp_rev=Q7250-19133-1
 
