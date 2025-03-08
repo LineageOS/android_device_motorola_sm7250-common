@@ -348,10 +348,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh
 
-# VNDK
-PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
-PRODUCT_PRODUCT_VNDK_VERSION := current
-
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
