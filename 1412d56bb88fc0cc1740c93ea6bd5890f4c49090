@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7701b71c_f303a200",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-08T22:11:55Z",
+      "side": 1,
+      "message": "libinit won\u0027t work on GSIs, without these it\u0027ll be too much of laggy on GSIs",
+      "revId": "1412d56bb88fc0cc1740c93ea6bd5890f4c49090",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
