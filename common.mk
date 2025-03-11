@@ -278,10 +278,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rfs_msm_mpss_readonly_vendor_fsg_symlink
 
-# RIL
-PRODUCT_PACKAGES += \
-    libqsap_sdk
-
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
