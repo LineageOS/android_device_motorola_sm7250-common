@@ -16,6 +16,24 @@
       "message": "This should go to 22.2 only",
       "revId": "b49b106cd0c821f15ef2f33a1dd4192e33475da8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9004469b_dfb614e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-03-12T21:47:05Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "24e0e6cf_3cf33b98",
+      "revId": "b49b106cd0c821f15ef2f33a1dd4192e33475da8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
