@@ -1,52 +1,5 @@
-# A/B partitions.
-/dev/block/platform/soc/1d84000\.ufshc/sd[df]                u:object_r:vendor_gpt_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/fsg_[ab]      u:object_r:vendor_modem_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/logo_[ab]     u:object_r:vendor_custom_ab_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/prov_[ab]     u:object_r:vendor_custom_ab_block_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/storsec_[ab]  u:object_r:vendor_custom_ab_block_device:s0
-
-# Partition Mountpoints
-/(vendor|system/vendor)/fsg          u:object_r:fsg_firmware_file:s0
-/(vendor|system/vendor)/super_fsg    u:object_r:fsg_firmware_file:s0
-/(vendor|system/vendor)/super_modem  u:object_r:firmware_file:s0
-
-# HAL Services
-/(vendor|system/vendor)/bin/hw/motorola\.hardware\.audio\.adspd@1\.0-service           u:object_r:hal_audio_default_exec:s0
+# LiveDisplay
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs\.motorola_lito    u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 
 # Vendor init scripts
-/(vendor|system/vendor)/bin/init\.mmi\.(touch|laser|usb)\.sh               u:object_r:vendor_qti_init_shell_exec:s0
-/(vendor|system/vendor)/bin/init\.mmi\.multisimconfig\.sh                  u:object_r:vendor_qti_init_shell_exec:s0
-/(vendor|system/vendor)/bin/init\.oem\.hw\.sh                              u:object_r:vendor_qti_init_shell_exec:s0
-
-# Capsense
-/(vendor|system/vendor)/bin/capsense_reset                                 u:object_r:capsense_reset_exec:s0
-/(vendor|system/vendor)/bin/motpsd                                         u:object_r:motpsd_exec:s0
-
-# NFC
-/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@1\.2-service.st      u:object_r:hal_nfc_default_exec:s0
-/(vendor|system/vendor)/bin/STFlashTool                                    u:object_r:stflashtool_exec:s0
-/dev/st21nfc                                                               u:object_r:nfc_device:s0
-
-# Radio
-/data/vendor/misc/cutback(/.*)?                         u:object_r:cutback_data_file:s0
-/dev/socket/cutback                                     u:object_r:cutback_socket:s0
-
-# Camera
-/(vendor|system/vendor)/bin/vl53l1_daemon               u:object_r:vl53l1_exec:s0
-/dev/laser                                              u:object_r:vl53l1_device:s0
-/data/vendor/misc/imager                                u:object_r:vendor_camera_data_file:s0
-/sys/devices/virtual/input/input[0-9]+/xtalk	        	u:object_r:vendor_sysfs_laser:s0
-/sys/devices/virtual/input/input[0-9]+/offset	        	u:object_r:vendor_sysfs_laser:s0
-/sys/devices/virtual/input/input[0-9]+/calibration_data	u:object_r:vendor_sysfs_laser:s0
-
-# Thermal
-/dev/mmi_sys_temp                                       u:object_r:thermal_device:s0
-
-# Awinic
-/(mnt/vendor/persist|persist)/factory/audio/aw_cali.bin    u:object_r:vendor_persist_audio_file:s0
-
-# cs35l41
-/(mnt/vendor/persist|persist)/factory/audio/spk_ambient   u:object_r:vendor_persist_audio_file:s0
-/(mnt/vendor/persist|persist)/factory/audio/spk_cal_r     u:object_r:vendor_persist_audio_file:s0
-/(mnt/vendor/persist|persist)/factory/audio/spk_f0        u:object_r:vendor_persist_audio_file:s0
+/(vendor|system/vendor)/bin/load_touch\.sh                                                       u:object_r:vendor_qti_init_shell_exec:s0

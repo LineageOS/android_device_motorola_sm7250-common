@@ -1,3 +1,0 @@
-allow radio zygote:unix_stream_socket { getopt };
-
-get_prop(radio, moto_boot_prop)
