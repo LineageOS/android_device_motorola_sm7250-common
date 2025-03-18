@@ -126,7 +126,6 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_lito
-TARGET_RECOVERY_DEVICE_MODULES := libinit_lito
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/qcom_battery/battery_charging_enabled
