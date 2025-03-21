@@ -16,6 +16,7 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
+    odm \
     product \
     recovery \
     system \
