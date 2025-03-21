@@ -39,17 +39,3 @@ install_symlink {
     installed_location: "firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini",
     symlink_target: "/vendor/etc/wifi/WCNSS_qcom_cfg.ini",
 }
-
-install_symlink {
-    name: "vendor_super_fsg_mountpoint",
-    vendor: true,
-    installed_location: "super_fsg/.keep",
-    symlink_target: "/dev/null",
-}
-
-install_symlink {
-    name: "vendor_super_modem_mountpoint",
-    vendor: true,
-    installed_location: "super_modem/.keep",
-    symlink_target: "/dev/null",
-}
