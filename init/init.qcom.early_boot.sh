@@ -26,6 +26,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
+#Changes from Qualcomm Innovation Center are provided under the following license:
+#Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+#SPDX-License-Identifier: BSD-3-Clause-Clear
+#
 
 export PATH=/vendor/bin
 
@@ -370,11 +374,11 @@ case "$target" in
                 setprop vendor.display.enhance_idle_time 1
                 setprop vendor.netflix.bsp_rev ""
                 ;;
-             518)
+            518|561|586)
+                setprop vendor.media.target.version 3
                 ;;
-            *)
-                # default case is for bengal
-                setprop vendor.netflix.bsp_rev "Q6115-31409-1"
+            585)
+                setprop vendor.media.target.version 4
                 ;;
         esac
         ;;
@@ -430,7 +434,7 @@ esac
 case "$target" in
        "msm8937")
           case "$soc_hwid" in
-              386|354|353|303)
+              386|354|353|303|436)
                  # enable qrtr-ns service for kernel 4.14 or above
                  KernelVersionStr=`cat /proc/sys/kernel/osrelease`
                  KernelVersionS=${KernelVersionStr:2:2}
