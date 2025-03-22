@@ -18,6 +18,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.mmi.charge_only.rc",
+    src: "init.mmi.charge_only.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mmi.rc",
     src: "init.mmi.rc",
     relative_install_path: "init/hw",
