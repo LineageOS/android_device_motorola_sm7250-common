@@ -11,6 +11,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.mmi.charge_only.rc",
+    src: "init.mmi.charge_only.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mmi.dalvik.rc",
     src: "init.mmi.dalvik.rc",
     relative_install_path: "init/hw",
