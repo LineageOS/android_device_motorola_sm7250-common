@@ -3,13 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-cc_library_static {
-    name: "libinit_lito",
-    recovery_available: true,
-    shared_libs: ["libbase"],
-    srcs: ["init_lito.cpp"],
-}
-
 prebuilt_etc {
     name: "fstab.qcom",
     src: "fstab.qcom",
