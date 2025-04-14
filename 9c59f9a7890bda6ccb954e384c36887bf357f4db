@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_device_motorola_sdm632-common/+/423567",
       "revId": "9c59f9a7890bda6ccb954e384c36887bf357f4db",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70c682ab_65335dc4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-04-14T21:33:52Z",
+      "side": 1,
+      "message": "thanks!",
+      "parentUuid": "580d4895_70b6dd75",
+      "revId": "9c59f9a7890bda6ccb954e384c36887bf357f4db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
