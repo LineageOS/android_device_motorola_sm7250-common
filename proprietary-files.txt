@@ -900,4 +900,3 @@ vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 vendor/etc/wifi/icm.conf
 vendor/lib64/libaoa.so
-vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
