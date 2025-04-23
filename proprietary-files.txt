@@ -520,6 +520,9 @@ vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
+# Public libraries
+vendor/etc/public.libraries.txt
+
 # Qualcomm IMS Factory
 vendor/lib/vendor.qti.ims.factory@1.1.so
 vendor/lib64/vendor.qti.ims.factory@1.1.so
