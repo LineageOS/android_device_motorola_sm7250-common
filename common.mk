@@ -139,24 +139,17 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk \
     init.class_main.sh \
-    init.crda.sh \
     init.mdm.sh \
     init.mmi.charge_only.rc \
     init.mmi.rc \
     init.mmi.touch.sh \
     init.oem.hw.sh \
     init.qcom.class_core.sh \
-    init.qcom.coex.sh \
-    init.qcom.crashdata.sh \
     init.qcom.early_boot.sh \
-    init.qcom.efs.sync.sh \
     init.qcom.rc \
     init.qcom.power.rc \
-    init.qcom.sdio.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qti.fm.sh \
-    init.qti.ims.sh \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc
