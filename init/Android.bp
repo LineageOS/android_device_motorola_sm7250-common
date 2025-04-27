@@ -66,12 +66,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.crda.sh",
-    src: "init.crda.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.mdm.sh",
     src: "init.mdm.sh",
     vendor: true,
@@ -96,32 +90,8 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.coex.sh",
-    src: "init.qcom.coex.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.crashdata.sh",
-    src: "init.qcom.crashdata.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.qcom.early_boot.sh",
     src: "init.qcom.early_boot.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.efs.sync.sh",
-    src: "init.qcom.efs.sync.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.sdio.sh",
-    src: "init.qcom.sdio.sh",
     vendor: true,
 }
 
@@ -134,17 +104,5 @@ sh_binary {
 sh_binary {
     name: "init.qcom.sh",
     src: "init.qcom.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qti.fm.sh",
-    src: "init.qti.fm.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qti.ims.sh",
-    src: "init.qti.ims.sh",
     vendor: true,
 }
