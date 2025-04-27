@@ -43,17 +43,12 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'system_ext/etc/permissions/moto-telephony.xml': blob_fixup()
         .regex_replace('system/framework', 'system/system_ext/framework'),
-    ('system_ext/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml', 'system_ext/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml'): blob_fixup()
-        .regex_replace('xml version="2.0"', 'xml version="1.0"')
-        .regex_replace('/product/', '/system_ext/'),
-    ('system_ext/lib/lib-imsvideocodec.so', 'system_ext/lib64/lib-imsvideocodec.so'): blob_fixup()
+    'system_ext/lib64/lib-imsvideocodec.so': blob_fixup()
         .add_needed('libgui_shim.so'),
     'system_ext/priv-app/ims/ims.apk': blob_fixup()
         .apktool_patch('ims-patches'),
     'vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc': blob_fixup()
         .regex_replace('    disabled', ''),
-    'vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml': blob_fixup()
-        .regex_replace('system_ext', 'product'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
 }  # fmt: skip
