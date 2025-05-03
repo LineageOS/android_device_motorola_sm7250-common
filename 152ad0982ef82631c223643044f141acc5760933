@@ -34,6 +34,24 @@
       "parentUuid": "92c44fb2_c6320005",
       "revId": "152ad0982ef82631c223643044f141acc5760933",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30ca2a68_d3d1197b",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2025-05-03T06:37:54Z",
+      "side": 0,
+      "message": "To properly set the correct market names. Otherwise it wasn\u0027t working.",
+      "parentUuid": "c4bcae70_f853019b",
+      "revId": "152ad0982ef82631c223643044f141acc5760933",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
