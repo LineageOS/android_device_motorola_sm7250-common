@@ -1,17 +1,6 @@
 #
-# Copyright (C) 2019-2025 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# SPDX-FileCopyrightText: 2019-2025 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
 #
 
 # Add common definitions for Qualcomm
@@ -20,12 +9,8 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
+BOARD_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -34,9 +19,17 @@ AB_OTA_PARTITIONS += \
     product \
     recovery \
     system \
-    vendor \
     vbmeta \
-    vbmeta_system
+    vbmeta_system \
+    vendor
+
+PRODUCT_PACKAGES += \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
+PRODUCT_PACKAGES_DEBUG += \
+    update_engine_client
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -54,8 +47,158 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
-BOARD_SHIPPING_API_LEVEL := 30
-PRODUCT_SHIPPING_API_LEVEL := 29
+# Audio
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usb.default \
+
+PRODUCT_PACKAGES += \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.service \
+    android.hardware.bluetooth.audio-impl
+
+PRODUCT_PACKAGES += \
+    libaudio-resampler \
+    libaudioroute \
+    libhdmiedid \
+    libhfp \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libsndmonitor \
+    libvolumelistener \
+    libtinycompress \
+    liba2dpoffload
+
+PRODUCT_COPY_FILES += \
+    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
+
+# Bootctrl
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
+$(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
+
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service_64 \
+
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    gralloc.qcom \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.memtrack-service
+
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm-service.clearkey
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
+# Framework detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
+
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1-impl-qti \
+    android.hardware.gnss@2.1-service-qti \
+    libbatching \
+    libgeofencing \
+    libgnss
+
+# GPS configs
+PRODUCT_PACKAGES += \
+    apdr.conf \
+    flp.conf \
+    gps.conf \
+    izat.conf \
+    lowi.conf \
+    sap.conf \
+    xtwifi.conf
+
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health-service.qti \
+    android.hardware.health-service.qti_recovery
+
+# Init
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
+    init.class_main.sh \
+    init.mdm.sh \
+    init.mmi.charge_only.rc \
+    init.mmi.rc \
+    init.mmi.touch.sh \
+    init.oem.hw.sh \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.rc \
+    init.qcom.power.rc \
+    init.qcom.sensors.sh \
+    init.qcom.sh \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    ueventd.qcom.rc
+
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.0-service-sysfs.motorola_lito
+
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
+    $(LOCAL_PATH)/media/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml
+
+# MotoActions
+PRODUCT_PACKAGES += \
+    MotoActions \
+    MotoCommonOverlay
+
+# NFC
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    Tag
+
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Partitions
+PRODUCT_PACKAGES += \
+    vendor_bt_firmware_mountpoint \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint \
+    vendor_fsg_mountpoint \
+    vendor_super_fsg_mountpoint \
+    vendor_super_modem_mountpoint
+
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Permissions
@@ -103,167 +246,17 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
-# Audio
-PRODUCT_PACKAGES += \
-    android.hardware.audio@6.0-impl \
-    android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.service \
-    android.hardware.bluetooth.audio-impl \
-    audio.bluetooth.default \
-    audio.r_submix.default \
-    audio.usb.default \
-    libaudio-resampler \
-    libaudioroute \
-    libhdmiedid \
-    libhfp \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
-    libsndmonitor \
-    libvolumelistener \
-    libtinycompress 
-
-PRODUCT_PACKAGES += \
-    liba2dpoffload
-
-PRODUCT_COPY_FILES += \
-    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
-
-# Boot control
-PRODUCT_PACKAGES += \
-    android.hardware.boot-service.qti \
-    android.hardware.boot-service.qti.recovery
-
-$(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
-
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-
-# Common init scripts
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    fstab.qcom.ramdisk \
-    init.class_main.sh \
-    init.mdm.sh \
-    init.mmi.charge_only.rc \
-    init.mmi.rc \
-    init.mmi.touch.sh \
-    init.oem.hw.sh \
-    init.qcom.class_core.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.rc \
-    init.qcom.power.rc \
-    init.qcom.sensors.sh \
-    init.qcom.sh \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
-
-# Configstore
-PRODUCT_PACKAGES += \
-    disable_configstore
-
-# Display
-PRODUCT_PACKAGES += \
-    android.hardware.graphics.mapper@3.0-impl-qti-display \
-    android.hardware.graphics.mapper@4.0-impl-qti-display \
-    gralloc.qcom \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.memtrack-service
-
-# DRM
-PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey
-
-# fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
-# GPS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-impl-qti \
-    android.hardware.gnss@2.1-service-qti \
-    libbatching \
-    libgeofencing \
-    libgnss
-
-PRODUCT_PACKAGES += \
-    apdr.conf \
-    flp.conf \
-    gps.conf \
-    izat.conf \
-    lowi.conf \
-    sap.conf \
-    xtwifi.conf
-
-# Health
-PRODUCT_PACKAGES += \
-    android.hardware.health-service.qti \
-    android.hardware.health-service.qti_recovery
-
-# HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
-
-# IPACM
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
-
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs.motorola_lito
-
-# Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
-    $(LOCAL_PATH)/media/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml
-
-# Moto hardware
-PRODUCT_PACKAGES += \
-    MotoActions \
-    MotoCommonOverlay
-
-# NFC
-PRODUCT_PACKAGES += \
-    com.android.nfc_extras \
-    Tag
-
-# Partitions
-PRODUCT_PACKAGES += \
-    vendor_bt_firmware_mountpoint \
-    vendor_dsp_mountpoint \
-    vendor_firmware_mnt_mountpoint \
-    vendor_fsg_mountpoint \
-    vendor_super_fsg_mountpoint \
-    vendor_super_modem_mountpoint
 
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     libqti-perfd-client
 
-# QMI
-PRODUCT_PACKAGES += \
-    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
-
 # RFS MSM MPSS symlinks
 PRODUCT_PACKAGES += \
     rfs_msm_mpss_readonly_vendor_fsg_symlink
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -281,7 +274,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    MotoNrEnabler \
     ims-ext-common \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
@@ -289,6 +281,9 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     telephony-ext
+
+PRODUCT_PACKAGES += \
+    MotoNrEnabler
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
@@ -301,20 +296,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TimeKeep
 
-# Update engine
-PRODUCT_PACKAGES += \
-    update_engine \
-    update_engine_sideload \
-    update_verifier
-
-PRODUCT_PACKAGES_DEBUG += \
-    update_engine_client
-
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti \
+    android.hardware.usb-service.qti
+
+PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Wifi
 PRODUCT_PACKAGES += \
@@ -331,10 +326,11 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
+# Wifi - Configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-# Inherit the proprietary files
+# Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/sm7250-common/sm7250-common-vendor.mk)
