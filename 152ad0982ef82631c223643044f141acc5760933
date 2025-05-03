@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92c44fb2_c6320005",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2025-05-03T04:44:41Z",
+      "side": 0,
+      "message": "https://github.com/LineageOS/android_device_motorola_sm7250-common/commit/d5ee0bd9e2aa3a0d8775154cc3e4c30740f97970",
+      "revId": "152ad0982ef82631c223643044f141acc5760933",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
