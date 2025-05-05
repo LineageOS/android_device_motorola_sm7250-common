@@ -240,9 +240,6 @@ debug.sf.early.sf.duration=15666666
 debug.sf.earlyGl.sf.duration=15666666
 debug.sf.late.sf.duration=15666666
 
-# Time
-persist.vendor.delta_time.enable=true
-
 # USB
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss_sw
