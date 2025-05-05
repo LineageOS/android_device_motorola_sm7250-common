@@ -64,7 +64,6 @@ BOARD_KERNEL_CMDLINE := \
     cgroup.memory=nokmem,nosocket \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
-    reboot=panic_warm \
     service_locator.enable=1 \
     swiotlb=2048
 BOARD_KERNEL_IMAGE_NAME := Image
