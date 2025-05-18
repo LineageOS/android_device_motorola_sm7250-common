@@ -52,6 +52,24 @@
       "parentUuid": "c4bcae70_f853019b",
       "revId": "152ad0982ef82631c223643044f141acc5760933",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66d6468a_9b01c7c4",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-05-18T11:03:27Z",
+      "side": 0,
+      "message": "Market names are set fine? https://katb.in/edugifukifo/raw",
+      "parentUuid": "30ca2a68_d3d1197b",
+      "revId": "152ad0982ef82631c223643044f141acc5760933",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
