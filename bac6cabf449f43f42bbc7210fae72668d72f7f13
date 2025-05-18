@@ -16,6 +16,24 @@
       "message": "Any specific reason for this?",
       "revId": "bac6cabf449f43f42bbc7210fae72668d72f7f13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c36ec9d_933f88cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-05-18T14:28:07Z",
+      "side": 1,
+      "message": "nairo fails to compile\n\n```\nRuntimeError: sum of sizes of [\u0027odm\u0027, \u0027product\u0027, \u0027system\u0027, \u0027system_ext\u0027, \u0027vendor\u0027] is greater than BOARD_SUPER_PARTITION_SIZE / 2:\n1691648+2763165696+1296048128+531476480+517804032 \u003d\u003d 5110185984 \u003e 4865392640 \u003d\u003d 4865392640\n17:42:34 ninja failed with: exit status 1\nThere was 1 action that completed after the action that failed. See verbose.log.gz for its output.\n```",
+      "parentUuid": "b80f8561_46bd0a29",
+      "revId": "bac6cabf449f43f42bbc7210fae72668d72f7f13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
