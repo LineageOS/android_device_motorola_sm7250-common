@@ -16,6 +16,24 @@
       "message": "`BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE :\u003d true` is not enough?",
       "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ed35577_09dbce70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-05-18T15:03:06Z",
+      "side": 1,
+      "message": "My biggest worry would be if an user flashed a big GMS package (knowing that 22.1 -\u003e 22.2 is allowed via OTA).",
+      "parentUuid": "e302c1b9_5daa21cf",
+      "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
