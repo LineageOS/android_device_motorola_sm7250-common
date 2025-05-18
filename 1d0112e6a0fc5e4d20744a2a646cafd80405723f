@@ -51,6 +51,24 @@
       "message": "Moving everything here seems to be overkill though. You can just override product partition reserved size. This change is also missing system_ext reserved space",
       "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5ffc40a_815c71ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-05-18T15:15:00Z",
+      "side": 1,
+      "message": "You also reserve way more space for /system for no reason",
+      "parentUuid": "bf644fdb_86920897",
+      "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
