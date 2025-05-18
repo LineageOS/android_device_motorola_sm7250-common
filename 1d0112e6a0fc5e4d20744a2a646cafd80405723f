@@ -69,6 +69,24 @@
       "parentUuid": "bf644fdb_86920897",
       "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7412d3b7_5597f9ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-05-18T15:23:03Z",
+      "side": 1,
+      "message": "Done (we don\u0027t have a system_ext partition mapped _yet_ as this would break OTAs)",
+      "parentUuid": "c5ffc40a_815c71ce",
+      "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
