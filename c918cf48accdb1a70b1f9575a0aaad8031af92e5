@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_device_motorola_sm7250-common/+/423268/3",
       "revId": "c918cf48accdb1a70b1f9575a0aaad8031af92e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76585f77_da547359",
+        "filename": "init/ueventd.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-05-18T11:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a001c22_91b8580b",
+      "revId": "c918cf48accdb1a70b1f9575a0aaad8031af92e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
