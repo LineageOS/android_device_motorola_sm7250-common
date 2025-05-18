@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e302c1b9_5daa21cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-05-18T14:51:04Z",
+      "side": 1,
+      "message": "`BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE :\u003d true` is not enough?",
+      "revId": "1d0112e6a0fc5e4d20744a2a646cafd80405723f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
