@@ -26,9 +26,11 @@ using ::android::base::Trim;
 using ::android::base::WriteStringToFile;
 
 namespace {
-    constexpr const char *kFileAcl = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_acl";
-    constexpr const char *kFileCabc = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_cabc";
-    constexpr const char *kFossProperty = "ro.vendor.display.foss";
+constexpr const char* kFileAcl =
+        "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_acl";
+constexpr const char* kFileCabc =
+        "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_cabc";
+constexpr const char* kFossProperty = "ro.vendor.display.foss";
 }  // anonymous namespace
 
 namespace vendor {
