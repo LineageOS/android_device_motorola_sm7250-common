@@ -1,5 +1,2 @@
-# LiveDisplay
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs\.motorola_lito    u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
-
 # Vendor init scripts
 /(vendor|system/vendor)/bin/load_touch\.sh                                                       u:object_r:vendor_qti_init_shell_exec:s0
