@@ -16,6 +16,23 @@
       "message": "Add /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc to sepolicy?",
       "revId": "4f7fa89cbfc80a0dc3ea19035d3e59d5b94b17bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "daa25602_a14bf652",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-08-20T23:17:01Z",
+      "side": 1,
+      "message": "wrong commit, sry",
+      "revId": "4f7fa89cbfc80a0dc3ea19035d3e59d5b94b17bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
