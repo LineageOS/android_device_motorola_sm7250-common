@@ -16,6 +16,24 @@
       "message": "This isn\u0027t needed after qcom_sm8250 defconfig updates, the default defconfigs disable debugfs",
       "revId": "821d671084655d1a23dac91a5a27f5067b88ddf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f2c693d_4a39902b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-09-02T15:29:51Z",
+      "side": 1,
+      "message": "Will abandon, thanks!",
+      "parentUuid": "19f3759f_abf22697",
+      "revId": "821d671084655d1a23dac91a5a27f5067b88ddf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
