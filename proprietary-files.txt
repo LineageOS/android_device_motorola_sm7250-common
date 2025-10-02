@@ -1,4 +1,7 @@
 # All unpinned blobs below are extracted from smith_retail-user 12 S2PS32M.57-23-31 82a27f release-keys
+# nairo: nairo RPNS31.Q1-51-40-11-4-13 7e3c4
+# pstar: pstar T1RA33.55-15-16-5 d9def9-6b8134
+# topaz: topaz V816.0.7.0.UMGMIXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -123,7 +126,7 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
-# Display - from pstar T1RA33.55-15-16-5 d9def9-6b8134
+# Display - from pstar
 vendor/lib64/libdisp-aba.so|41fc61cdc8821ed206f649dd2eb5562b346ade77
 vendor/lib64/libdisplayqos.so|15701f18257c43be5657bbd867a8acf1f469e373
 vendor/lib64/libdisplayskuutils.so|30dc405f5c127c9af7b5c9e6697db896f0b13693
@@ -139,7 +142,7 @@ vendor/lib64/libsdm-disp-vndapis.so|2f1abd975b1f1dbabcc410e56c29ac296adcc411
 vendor/lib64/libsdmextension.so|8627c97f04b0d542dfcfe98a212097e7d5e8c297
 vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
 
-# Display postprocessing - from pstar T1RA33.55-15-16-5 d9def9-6b8134
+# Display postprocessing - from pstar
 vendor/bin/hw/vendor.display.color@1.0-service|9c77c3655befc1c53f842e1b9605b83e3dc64259
 vendor/bin/qdcmss|536c34abfbf7833df440bfcd264bacdc88318067
 vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
@@ -262,7 +265,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
-# Graphics - from pstar T1RA33.55-15-16-5 d9def9-6b8134
+# Graphics - from pstar
 vendor/lib/egl/eglSubDriverAndroid.so|1a1c287a32095bede1cd199594cb7fb89c1c15d0
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|2b96d33f61340c391cc2a6c503bff6b12f2659ed
 vendor/lib/egl/libGLESv1_CM_adreno.so|64b58204e029c848e35f50ad163952db497ea90f
@@ -294,7 +297,7 @@ vendor/lib64/libgsl.so|a8490afe3f5423eefb5ea2131925d78112233479
 vendor/lib64/libllvm-glnext.so|57d8292057944419e914b44807e58de0eb2dd6f5
 vendor/lib64/libllvm-qcom.so|7b470265d6cb64b73fef276ffa7ccaef61150f1e
 
-# Graphics (Vulkan) - from pstar T1RA33.55-15-16-5 d9def9-6b8134
+# Graphics (Vulkan) - from pstar
 vendor/lib/hw/vulkan.adreno.so|dbcf1f95f364957d79c21970c1994cdeeab087cf
 vendor/lib64/hw/vulkan.adreno.so|9aefb6da610ebda6afc7061275d1e150671cde70
 
@@ -339,7 +342,7 @@ vendor/lib/libqcodec2_platform.so
 vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 
-# Media (Codec2) - from nairo RPNS31.Q1-51-40-11-4-13 7e3c4
+# Media (Codec2) - from nairo
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml|0e532bf1c7d6a0ee2e7e03a9cc3283a5bffc7f8e
 
@@ -369,7 +372,7 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
-# Power-off alarm - from topaz_global-user 14 UKQ1.230917.001 V816.0.7.0.UMGMIXM release-keys
+# Power-off alarm - from topaz
 system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|b9255470fd1c32bc7371084273e3c524b392bc4e
 vendor/bin/power_off_alarm|ab9b2e769a136d258b1e29ed494495f70c6b8224
 
