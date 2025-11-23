@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
-$(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
+$(call soong_config_set_bool,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -174,23 +174,23 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/qcom_battery/battery_charging_enabled)
-$(call soong_config_set,lineage_health,charging_control_supports_toggle,true)
+$(call soong_config_set_bool,lineage_health,charging_control_supports_toggle,true)
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm \
     vendor.lineage.livedisplay-service.sysfs
 
-$(call soong_config_set,livedisplay_sdm,enable_dm,false)
-$(call soong_config_set,livedisplay_sysfs,enable_ab,true)
-$(call soong_config_set,livedisplay_sysfs,enable_se,true)
+$(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
+$(call soong_config_set_bool,livedisplay_sysfs,enable_ab,true)
+$(call soong_config_set_bool,livedisplay_sysfs,enable_se,true)
 
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     $(LOCAL_PATH)/media/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml
 
-$(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
+$(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,true)
 
 # MotoActions
 PRODUCT_PACKAGES += \
