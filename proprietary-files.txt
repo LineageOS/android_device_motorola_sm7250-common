@@ -130,7 +130,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/libdisp-aba.so|41fc61cdc8821ed206f649dd2eb5562b346ade77
 vendor/lib64/libdisplayqos.so|15701f18257c43be5657bbd867a8acf1f469e373
 vendor/lib64/libdisplayskuutils.so|30dc405f5c127c9af7b5c9e6697db896f0b13693
-vendor/lib64/libdpps.so|103f4647f5311c6bf40ae498fefdaa98c0532417
+vendor/lib64/libdpps.so|103f4647f5311c6bf40ae498fefdaa98c0532417|2192c31e3e7ce1b4fc6d14087341ec5468c5cacb
 vendor/lib64/libhdr_tm.so|4be3cfff1ef40cbc6ad329b79c60881263aa6723
 vendor/lib64/libhdrdynamic.so|917095388aaa80685fadcf10e414ff1261350aef
 vendor/lib64/libhdrdynamicootf.so|4bd09dd4a48176b18a64cfa14faacbe22a43366f
