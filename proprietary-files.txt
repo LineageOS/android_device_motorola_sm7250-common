@@ -1,6 +1,6 @@
 # All unpinned blobs below are extracted from smith_retail-user 12 S2PS32M.57-23-31 82a27f release-keys
 # nairo: nairo RPNS31.Q1-51-40-11-4-13 7e3c4
-# pstar: pstar T1RA33.55-15-16-5 d9def9-6b8134
+# pstar: pstar_retcn T1RAA33.39-11-11
 # topaz: topaz V816.0.7.0.UMGMIXM
 
 # ADSP
