@@ -112,10 +112,6 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set_bool,fastbootd,zero_packet,true)
 
-# Framework detect
-PRODUCT_PACKAGES += \
-    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
-
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
