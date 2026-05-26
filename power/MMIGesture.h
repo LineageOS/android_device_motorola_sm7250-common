@@ -10,15 +10,42 @@
 
 namespace mmi_gesture {
 
-constexpr auto kGestureNode = "/sys/class/touchscreen/primary/gesture";
-constexpr auto kGestureModeTypeNode = "/sys/class/touchscreen/primary/gesture_mode_type";
+inline const std::string& TouchscreenPath() {
+    static const std::string path = []() -> std::string {
+        constexpr const char* kTouchscreenPaths[] = {
+                "/sys/class/touchscreen/primary",
+                "/sys/class/touchscreen/ft8756",
+        };
+
+        for (const char* candidate : kTouchscreenPaths) {
+            if (access(candidate, F_OK) == 0) {
+                return candidate;
+            }
+        }
+
+        /* return as fall back */
+        return "/sys/class/touchscreen/primary";
+    }();
+
+    return path;
+}
+
+inline const std::string& GestureNode() {
+    static const std::string node = TouchscreenPath() + "/gesture";
+    return node;
+}
+
+inline const std::string& GestureModeTypeNode() {
+    static const std::string node = TouchscreenPath() + "/gesture_mode_type";
+    return node;
+}
 
 // Keep them in sync with the kernel
 enum class Gesture { kSingleTap = 0x20, kDoubleTap = 0x30 };
 
 inline bool IsEnabled(Gesture gesture) {
     std::string buf;
-    if (!android::base::ReadFileToString(kGestureModeTypeNode, &buf)) {
+    if (!android::base::ReadFileToString(GestureModeTypeNode(), &buf)) {
         return false;
     }
 
@@ -37,7 +64,7 @@ inline bool IsEnabled(Gesture gesture) {
 inline bool SetEnabled(Gesture gesture, bool enabled) {
     int code = static_cast<int>(gesture);
     if (enabled) ++code;
-    if (!android::base::WriteStringToFile(std::to_string(code), kGestureNode)) {
+    if (!android::base::WriteStringToFile(std::to_string(code), GestureNode())) {
         return false;
     }
     return true;
