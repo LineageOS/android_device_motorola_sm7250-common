@@ -8,6 +8,7 @@ on early-boot
     write /sys/module/subsystem_restart/parameters/disable_restart_work 0x0
 
     chown system system /sys/class/touchscreen/primary/gesture
+    chown system system /sys/class/touchscreen/ft8756/gesture
 
 on init
     chown system log /proc/driver/mmi_annotate
