@@ -107,9 +107,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
 # Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 $(call soong_config_set_bool,fastbootd,zero_packet,true)
 
 # GPS
