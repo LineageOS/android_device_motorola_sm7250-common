@@ -16,6 +16,23 @@
       "message": "chain tested and fine on kiev",
       "revId": "4a01d677149209a44267eefe5026f7709a9cef46",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14ccefd5_f692945e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-09-19T06:43:14Z",
+      "side": 1,
+      "message": "tested/working on smith",
+      "revId": "4a01d677149209a44267eefe5026f7709a9cef46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
