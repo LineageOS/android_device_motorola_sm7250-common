@@ -296,7 +296,7 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_PACKAGES += \
-    MotoNrEnabler
+    MotoExtTelephony
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
