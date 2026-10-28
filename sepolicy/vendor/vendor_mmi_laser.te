@@ -1,0 +1,2 @@
+# Laser calibration data lives under /sys/devices/virtual/input/inputN
+allow vendor_mmi_laser vendor_sysfs_input:file w_file_perms;

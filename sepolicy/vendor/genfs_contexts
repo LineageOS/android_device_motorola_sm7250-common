@@ -1,0 +1,2 @@
+# Laser
+genfscon sysfs /devices/virtual/laser    u:object_r:vendor_sysfs_laser:s0
