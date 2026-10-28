@@ -1,5 +1,4 @@
 # Audio
-af.fast_track_multiplier=2
 audio.deep_buffer.media=true
 audio.offload.video=true
 persist.vendor.audio.dualmic.config=endfire
@@ -29,9 +28,8 @@ vendor.audio.safx.pbe.enabled=true
 vendor.audio.tunnel.encode=false
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
-vendor.audio_hal.in_period_size=144
-vendor.audio_hal.period_multiplier=3
-vendor.audio_hal.period_size=192
+vendor.audio_hal.in_period_size=240
+vendor.audio_hal.period_size=240
 vendor.voice.path.for.pcm.voip=false
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
